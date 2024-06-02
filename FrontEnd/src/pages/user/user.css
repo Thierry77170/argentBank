@@ -1,0 +1,72 @@
+.title {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .mainUser {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    height: auto;
+  }
+
+  .edit-button {
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .container-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+
+
+  .container-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 30px;
+  }
+
+  .btnCancel {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /******* Media queries **********/
+/*  Small devices (phones, less than 800px)  */
+@media (max-width: 799px) {
+  .container-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .container-button {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 720px) {
+  .btnCancel {
+    width: 200px;
+  }
+}

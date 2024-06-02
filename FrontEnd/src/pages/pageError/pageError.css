@@ -1,0 +1,40 @@
+
+.container {
+    height: calc(78vh);
+    padding-top: 60px;
+    background-color: #12002b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .containerTitle {
+        color: #00bc77;
+        font-size: 288px;
+        margin: 0px;
+      }
+
+      .containerText {
+        color: #fff;
+        font-size: 40px;
+        
+      }
+
+      .containerLien {
+        color: #fff;
+        font-size: 25px;
+      }
+
+/******* Media queries **********/
+/*  Small devices (phones, less than 676px)  */
+@media (max-width: 675px) {
+    .containerTitle {
+      font-size: 96px;
+    }
+    .containerText {
+      font-size: 18px;
+    }
+    .containerLien {
+      font-size: 14px;
+    }
+}
