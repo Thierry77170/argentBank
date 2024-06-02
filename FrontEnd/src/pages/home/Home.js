@@ -3,6 +3,8 @@ import  iconChat from '../../img/icon-chat.webp'
 import  iconMoney from '../../img/icon-money.webp'
 import  iconSecurity from '../../img/icon-security.webp'
 
+import Features from '../../components/features/Features'
+
 function Home() {
     return (
         <main>
@@ -17,37 +19,26 @@ function Home() {
             </div>
             <section className="features">
                 <h2 className="sr-only">Features</h2>
-                <div className="feature-item">
-                    <img src={iconChat} alt="Chat Icon" className="feature-icon" />
-                    <h3 className="feature-item-title">You are our #1 priority</h3>
-                    <p>
-                        Need to talk to a representative? You can get in touch through our
-                        24/7 chat or through a phone call in less than 5 minutes.
-                    </p>
-                </div>
-                <div className="feature-item">
-                    <img
+                    <Features 
+                        src={iconChat} 
+                        alt="Chat Icon"
+                        titleH3="You are our #1 priority"
+                        text="Need to talk to a representative? You can get in touch through our
+                        24/7 chat or through a phone call in less than 5 minutes."
+                    />
+                    <Features 
                         src={iconMoney}
-                        alt="Chat Icon"
-                        className="feature-icon"
+                        alt="money"
+                        titleH3="More savings means higher rates"
+                        text="The more you save with us, the higher your interest rate will be!"
                     />
-                    <h3 className="feature-item-title">More savings means higher rates</h3>
-                    <p>
-                        The more you save with us, the higher your interest rate will be!
-                    </p>
-                </div>
-                <div className="feature-item">
-                    <img
+                    <Features 
                         src={iconSecurity}
-                        alt="Chat Icon"
-                        className="feature-icon"
+                        alt="Security"
+                        titleH3="Security you can trust"
+                        text=" We use top of the line encryption to make sure your data and money
+                        is always safe."
                     />
-                    <h3 className="feature-item-title">Security you can trust</h3>
-                    <p>
-                        We use top of the line encryption to make sure your data and money
-                        is always safe.
-                    </p>
-                </div>
             </section>
         </main>
     );
