@@ -1,0 +1,28 @@
+{
+  "name": "argent-bank-website",
+  "version": "1.0.0",
+  "description": "![Argent Bank](ArgentBank.webp)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thierry77170/argentBank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thierry77170/argentBank/issues"
+  },
+  "homepage": "https://github.com/Thierry77170/argentBank#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.8",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1"
+  }
+}
